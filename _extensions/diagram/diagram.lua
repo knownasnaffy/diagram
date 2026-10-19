@@ -305,7 +305,7 @@ local d2 = {
         local infile = 'diagram.d2'
         local outfile = 'diagram.' .. file_extension
 
-        args = {'--bundle', '--pad=0', '--scale=1'}
+        args = {'--bundle', '--scale=1'}
 
         d2_user_opts = {
           'layout',
